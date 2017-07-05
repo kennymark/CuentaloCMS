@@ -1,0 +1,110 @@
+<h1 class="title is-4 page	has-text-centered" style="padding: 50px 0;">All Posts</h1>
+
+<div class="container2">
+    <!-- Example row of columns -->
+    <!--<div class="columns">
+        <div class="column is-one-third">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/1600x900/?nature,water" alt="Image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Why love is wicked?</p>
+                            <p class="title is-6">By @jaymorgan</p>
+                        </div>
+                    </div>
+                    <p class="has-text-centered ">27 Jun 2016</small>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column is-one-third">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/1600x900/?nature" alt="Image">
+                    </figure>
+                </div>
+                <div class="card-content is-one-third">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Nature is beautiful</p>
+                            <p class="title is-6">By @marthediva</p>
+                        </div>
+                    </div>
+
+                    <p class="has-text-centered is-5">4th August 2014</small>
+                </div>
+            </div>
+
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://source.unsplash.com/1600x900/?newyork" alt="Image">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                            <p class="title is-4">Lost in Nature</p>
+                            <p class="title is-6">By @sunnyray</p>
+                        </div>
+                    </div>
+
+                    <p class="has-text-centered is-5">1 Jan 2016</small>
+                </div>
+            </div>
+
+        </div>
+
+    </div>-->
+
+
+    <div class="columns is-multiline">
+        {{#each articles}}
+        <div class="column is-one-third is-mobile">
+            <a href="/article/{{this.title}}">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="{{this.imgPath}}" alt="Image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <h1 class="title is-4" target="_blank">{{this.title}}</h1>
+                                <p class="title is-6">By @jaymorgan</p>
+                            </div>
+                        </div>
+
+                        <p class="has-text-centered date">{{this.realDate}}</small>
+
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+        {{/each}}
+    </div>
+    <p>{{length}}</p>
+</div>
+<script>
+    var text = $('.title').text();
+    var upper = text.charAt(0).toUpperCase();
+
+
+
+
+    /* var newDate = d.toDateString()
+     $('.date').text(newDate);*/
+</script>

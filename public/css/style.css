@@ -1,0 +1,102 @@
+html, body {
+    background: #FAFAFA;
+    font-family: 'Merriweather', serif;
+ 
+}
+
+body>nav:first-child {
+    border-bottom: 1px solid rgba(211, 211, 211, 0.38);
+    height: 5.25rem;
+}
+
+.title.is-3 {
+    font-family: 'Seaweed Script', cursive !important;
+}
+
+.search {
+    padding: 0;
+    height: 25px;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    outline: 0;
+    margin-top: 10px;
+}
+
+
+form input {
+    font-family: 'Fira Sans', serif !important;
+    font-size: 15px !important;
+}
+
+.write {
+    outline: 0;
+}
+.writetitle{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #dbdbdb;
+    font-family: 'Fira Sans', serif !important;
+    font-size: 24px !important;
+    outline:0;
+    background: transparent;
+}
+
+.page {
+    transition: all 2s linear;
+}
+.container2 {
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+.card {
+    border-radius: 8px;
+   
+}
+.card:hover{
+     box-shadow: 7px 7px 3px rgba(10, 10, 10, .1);
+     transition: all .4s ease-in-out; 
+     cursor: pointer;
+}
+.card img {
+    border-radius: 8px 8px 0 0;
+}
+img {
+    border-radius: inherit;
+}
+
+label {
+    font-family: 'Fira Sans';
+    color: #525252 !important;
+}
+button{
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    margin-top: 80px;
+    background: white !important;
+    border-top: 1px solid #dbdbdb;
+}
+.footer{
+    background: white !important;
+    
+}
+footer p{
+    font-family: 'Seaweed Script', cursive !important;
+    padding: 1rem !important;
+    font-size: 21px;
+}
+.pad{
+    margin: 50px 0;
+}

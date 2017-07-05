@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Merriweather|Seaweed+Script" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../public/css/style.css">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <nav class="nav ">
+        <div class="container">
+            <div class="nav-left">
+                <a href="/" class=" nav-item title is-3">Bloggers</a>
+            </div>
+
+            <div class="nav-right">
+                <a class="nav-item is-tab is-active" href="/">Home </a>
+                <a class="nav-item is-tab " href="#">About Me </a>
+                <a class="nav-item is-tab " href="#">My Blog </a>
+                <a class="nav-item" href="/register">Register</a>
+                <a class="nav-item" href="/login">Login</a>
+
+            </div>
+
+        </div>
+    </nav>
+    <nav class="nav ">
+        <div class="container">
+            <div class="nav-center">
+                <a class="nav-item is-tab is-active" href="/">All Posts </a>
+                <a class="nav-item is-tab " href="/recents">Recent Posts</a>
+                <a class="nav-item is-tab " href="#">Featured Post </a>
+                <a class="nav-item is-tab" href="#">Categories</a>
+            </div>
+            <div class="nav-right">
+                <form action="/search" method="GET">
+                    <input type="text" class="search" name="q" placeholder="Search here...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    {{{body}}} {{>footer}} {{>jslinks}}
+
+
+</body>
+
+</html>
