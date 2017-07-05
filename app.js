@@ -11,7 +11,7 @@ var path = require('path'),
 
 require('dotenv').config();
 var app = express(),
-    port = process.env.PORT || 8080;
+    port = process.env.PORT || 3000;
 
 //controllers 
 var postController = require('./controllers/postscontroller');
