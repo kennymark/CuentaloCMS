@@ -6,7 +6,7 @@ A basic CMS that allows for simple blogging using NodeJS
 
 You need to first download or clone this repo using the commandline via this command
 
-`git clone [https://github.com/kennymark/cuentalo.git](https://github.com/kennymark/cuentalo.git)`
+`git clone https://github.com/kennymark/cuentalo.git`
 
 Feature
 
