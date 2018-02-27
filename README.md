@@ -1,4 +1,4 @@
-# Cuentalo
+# 
 
 A basic CMS that allows for simple blogging using NodeJS
 
@@ -22,7 +22,7 @@ Make sure you install the packages using npm or yarn
 
 **Yarn**
 
-    Yarn add 
+    Yarn add
 
 # NodeJS packages
 
@@ -47,3 +47,7 @@ etc...
 - Fix recents tab problem
 - Add category and features tab
 - Test it
+
+# Screenshots
+
+![](https://static.notion-static.com/db455843-8bd1-45d4-818e-65472c2b9843/cuentalo.jpg)
