@@ -50,4 +50,4 @@ etc...
 
 # Screenshots
 
-![](https://static.notion-static.com/db455843-8bd1-45d4-818e-65472c2b9843/cuentalo.jpg)
+![](https://www.notion.so/Cuentalo-4c6fbce33b7246d6a9fba5a8ae726b48#37942c4ab77b4a138bd9d28ed1bf1b8f)
