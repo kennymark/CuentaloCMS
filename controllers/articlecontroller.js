@@ -39,7 +39,9 @@ articleController.recents = function (req, res) {
     Article.find({}, function (err, arts) {
         res.render('index', {
             title: 'Bloggers',
-            articles: arts
+            heading: 'Recent Posts',
+            articles: arts,
+            length: arts.length
         })
     }).sort({
         created_at: -1
