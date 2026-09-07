@@ -1,14 +1,14 @@
 {
-  "name": "express-starter",
+  "name": "cuentalo-cms",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A basic CMS that allows for simple blogging using NodeJS",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kenny Mark",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
